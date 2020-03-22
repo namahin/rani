@@ -4,3 +4,49 @@
     outline: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* *********************************** */
+/* theme css */
+/* *********************************** */
+.container-full-width {
+    width: 100%;
+}
+
+/* *********************************** */
+/* nav css */
+/* *********************************** */
+.side-nav {
+    position: fixed;
+    left: 0;
+    width: 250px;
+    background: #fff;
+    box-shadow: 0 3px 6px #0b135429;
+}
+
+.side-nav nav {}
+
+.side-nav nav ul {}
+
+.side-nav nav ul li {}
+
+.side-nav nav ul li a {}
+
+.side-nav nav ul li a i {}
+
+.side-nav nav ul li a p {}
+
+.user-logo {}
+
+.user-logo img {}
+
+/* *********************************** */
+/* site content */
+/* *********************************** */
+.site-content-area {
+    width: 100%;
+    padding: 150px;
+    box-sizing: border-box;
+    padding-left: 250px;
+}
+
+.page-wrap {}
