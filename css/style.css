@@ -155,10 +155,12 @@ theme-btn:focus {
     font-weight: 600;
 }
 
-.home-content-img {}
+.home-content-img {height: 100%;position: relative;}
 
 .home-content-img img {
     padding-top: 50px;
+    position: absolute;
+    bottom: 0;
 }
 
 .family-sec {}
