@@ -8,8 +8,33 @@
 /* *********************************** */
 /* theme css */
 /* *********************************** */
+a:hover {
+    text-decoration: none;
+}
+
+h3 {}
+
+h3::before {}
+
 .container-full-width {
     width: 100%;
+}
+
+.theme-btn {
+    font-size: 15px;
+    color: #0B1354;
+    font-weight: 400;
+    border: 1px solid #0B1354;
+    padding: 10px 30px;
+    border-radius: 5px;
+    transition: linear .2s;
+}
+
+.theme-btn:hover,
+theme-btn:focus {
+    transition: linear .2s;
+    background: #0B1354;
+    color: #fff;
 }
 
 /* *********************************** */
@@ -21,32 +46,171 @@
     width: 250px;
     background: #fff;
     box-shadow: 0 3px 6px #0b135429;
+    height: 100%;
+    overflow-y: auto;
 }
 
 .side-nav nav {}
 
-.side-nav nav ul {}
+.side-nav nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+}
 
-.side-nav nav ul li {}
+.side-nav nav ul li {
+    border-bottom: 2px solid #F3F3F3;
+}
 
-.side-nav nav ul li a {}
+.side-nav nav ul li a {
+    display: block;
+    color: #0B1354;
+    padding: 22px 0;
+    transition: linear .2s;
+}
 
-.side-nav nav ul li a i {}
+.side-nav nav ul li a:hover {
+    color: #6A0DAD;
+    transition: linear .2s;
+}
 
-.side-nav nav ul li a p {}
+.side-nav nav ul li a:focus {
+    color: #6A0DAD;
+}
 
-.user-logo {}
+.side-nav nav ul li a i {
+    font-size: 30px;
+}
 
-.user-logo img {}
+.side-nav nav ul li a p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.user-logo {
+    text-align: center;
+    height: 250px;
+    background: #F3F3F3;
+    position: relative;
+}
+
+.user-logo img {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 1px 5px #0B135435;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 /* *********************************** */
 /* site content */
 /* *********************************** */
 .site-content-area {
     width: 100%;
-    padding: 150px;
     box-sizing: border-box;
     padding-left: 250px;
 }
 
-.page-wrap {}
+.page-wrap {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.home-sec {
+    background: #F3F3F3;
+    padding: 0 7%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home-sec .row,
+.home-sec .col-md-6 {
+    height: 100%;
+}
+
+.home-content {
+    padding-top: 150px;
+}
+
+.home-content img {}
+
+.home-content h1 {
+    margin-bottom: 30px;
+    color: #0B1354;
+    font-size: 72px;
+    font-weight: 800;
+}
+
+.home-content h4 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: #0B1354;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.home-content-img {}
+
+.home-content-img img {
+    padding-top: 50px;
+}
+
+.family-sec {}
+
+.family-sec h3 {}
+
+.family-sec p {}
+
+.family-sec img {}
+
+.education-sec {}
+
+.education-sec h3 {}
+
+.edu-card {}
+
+.edu-card-num {}
+
+.card-num-view {}
+
+.card-num-view p {}
+
+.edu-card-dtl {}
+
+.edu-card-dtl p {}
+
+.edu-card-dtl p b {}
+
+.edu-card-dtl a {}
+
+.hobbies-sec {}
+
+.hobbies-sec p {}
+
+.hobbies-sec p i {}
+
+.achievement-sec {}
+
+.achievement-sec h3 {}
+
+.achievement-sec ul {}
+
+.achievement-sec ul li {}
+
+.achievement-sec img {}
+
+.plan-sec {}
+
+.plan-content {}
+
+.plan-content h3 {}
+
+.plan-content p {}
+
+footer {}
